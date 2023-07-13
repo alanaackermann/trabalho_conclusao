@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node trabalho.test | tap-spec"
+    "test": "node validacao.porcentagem.valor.test | tap-spec" 
+  },
+  "scripts": {
+    "test": "node validacao.string.test | tap-spec" 
   },
   "author": "",
   "license": "ISC",
