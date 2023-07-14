@@ -14,10 +14,6 @@ function validarPrimeiraLetra(string) {
   return string.charAt(0) === 'Z';
 }
 
-console.log(validarPrimeiraLetra("Zebra")); // true
-console.log(validarPrimeiraLetra("Girafa")); // false
-console.log(validarPrimeiraLetra("")); // false
-
 test('teste string Zebra', (t) => {
   supertest(string)
   .get('/validarPrimeiraLetra/Z')
